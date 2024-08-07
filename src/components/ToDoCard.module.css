@@ -1,0 +1,29 @@
+.card {
+    padding: 10px;
+    width: 300px;
+    max-width: 300px;
+
+    display: grid;
+    gap: 10px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    text-align: center;
+
+}
+
+.status{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card button {
+    width: 75px;
+    max-width: 75px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+}

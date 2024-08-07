@@ -1,0 +1,31 @@
+.statusContainer{
+    display: grid;
+    margin: 50px;
+    justify-items: end;
+}
+
+.listAreaContainer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px 10px;
+
+    justify-items: center;
+}
+
+@media screen and (max-width:1300px){
+    .listAreaContainer {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width:1000px){
+    .listAreaContainer {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:650px){
+    .listAreaContainer {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

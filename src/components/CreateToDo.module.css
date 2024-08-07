@@ -1,0 +1,40 @@
+h3{
+    margin: 50px;
+}
+
+.wrapper {
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.todoForm {
+    max-width: 500px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0 20px;
+}
+
+.todoForm button {
+    width: 100px;
+}
+
+@media screen and (max-width:1000px) {
+
+    h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .todoForm{
+        grid-template-columns: 1fr;
+    }
+    
+    .todoForm button {
+        display: grid;
+        margin: auto;
+    }
+}
